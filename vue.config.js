@@ -12,5 +12,10 @@ module.exports = defineConfig({
         maxSize: 250000
       }
     }
+  },
+  filenameHashing: true,
+  css: {
+    extract: true,
+    sourceMap: false
   }
 })
